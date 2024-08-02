@@ -1,5 +1,5 @@
 class Solution:
-    def intToRoman(self, num: int) -> str:
+    def intToRoman(self, num: int) -> list[str]:
         roman: str = "M" * int(num / 1000)
         num = num - (1000 * int(num / 1000))
         if int(num / 100) < 4:
