@@ -1,11 +1,8 @@
 **/__pycache__
 **/.vs
 **/.vscode
-**/tempCodeRunnerFile.py
-**/tempCodeRunnerFile.js
+**/tempCodeRunnerFile.*
 solve/
-**/solve.js
-**/solve.py
-**/solve1.py
-**/solve2.py
+**/solve.*
+**/solve1.*
 **/.cph
