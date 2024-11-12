@@ -19,7 +19,7 @@ public class Solution
             if (nums.Length - k == pIndex)
                 return resArr[pIndex];
             else if (nums.Length - k > pIndex)
-                left = pIndex;
+                left = pIndex + 1;
             else
                 right = pIndex - 1;
             nums = (int[])resArr.Clone();
